@@ -1,4 +1,4 @@
-# Generative AI for Software Engineering (GAI4SE)
+# Generative AI for Software Engineering (GENAI4SE)
 ![Workshop Banner](assets/copilot.jpeg) 
 # ISEC-25-Workshop
 Welcome to the GitHub repository for the Workshop on Advancing Software Engineering with Generative AI and LLM-Based Agents. This workshop focuses on exploring the convergence of traditional software engineering methodologies and cutting-edge Generative AI (GenAI) technologies to enhance software development processes, especially within large-scale and complex software systems.
