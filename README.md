@@ -1,100 +1,57 @@
+# Course: Generative AI for Software Engineering (GenAI4SE) 
 <figure>
   <img src="assets/copilot.jpeg" alt="genai4se"/>
   <figcaption>Copilot</figcaption>
   <a href="https://practical365.com/microsoft-365-copilot-costs">(Image Source)</a>
 </figure>
 
-# Course: Generative AI for Software Engineering (GAI4SE) 
+## Objective of Workshop
+Software engineering in the large is an effort-intensive and time-consuming activity whereas IT systems today need to make changes in the shortest possible duration. Most complex, large-scale software systems of today derive their requirements from existing (legacy) software and partial (incomplete) descriptions. Software development is thus a complex combination of transformation, reverse and forward engineering, involving code, data, and specifications, wherein data is both structured and unstructured. Expertise from subject matter experts (SMEs) is essential at each phase, which brings in the important component of domain knowledge. While Model-Driven Engineering (MDE), Knowledge Engineering (KE), and Reverse Engineering (RE) have mitigated some of the challenges, the emergence of Generative AI techniques holds the potential for a substantial breakthrough, though is yet to bring a consistent and substantial jump in productivity. There are challenges in understanding and resolving issues reported in GitHub. The absence of high-quality datasets that encompass a wide range of programming tasks, styles, and languages add to the challenges. With dynamically changing businesses of enterprises, and evolution of fast-changing and new technologies, the LLMs need to keep pace with the evolving code knowledge.
 
-## Resources
+Use of GenAI for software development has seen increasing maturity in the past 1+ year. Different tools like GitHub Copilot, Amazon Q developer agent (Code Whisperer), AutoCodeRover + GPT 4o, Assistant GRU, SWE agent + Claude 3.5 Sonnet have enhanced and are enhancing code development, code completion, test case generation, debugging and issue fixing tasks. Some methods have exploited the instruction tuning and reinforcement learning with feedback. Several more small and large models and tools are exploiting RACG techniques and claim to considerably enhance the software development tasks.
 
-- [Syllabus](https://docs.google.com/document/d/112H2v3JMZjaRiWVPxxBy_-dy2kE05DcM/edit?usp=sharing&ouid=100772203897969013988&rtpof=true&sd=true)
-- [Paper List](https://github.com/gai4se/LLM4SE.git)
-- [Communication: Discord](https://discord.gg/G37RrFwUnt)
-- [Content](https://github.com/gai4se/GAI4SE-Course)
-- Forms
-  - [Team Formation](https://docs.google.com/forms/d/e/1FAIpQLSfmnjiks_q-yI4lb_kxWo43x3mAmoa7U_3a6D_1n3W-p9RBew/viewform?usp=sf_link)
-  - [AI Concepts in SE](https://docs.google.com/forms/d/e/1FAIpQLSdlEJrl2WgziBLUyMnyLZXcnnxc45MavxCAc9xzEFZkoMhnhQ/viewform?usp=sf_link)
-  - [Questions for Guest Speakers](https://docs.google.com/forms/d/e/1FAIpQLSeDcNpNw2s_Frklbz403N_mSS4aoWcYwrZS3cySOQZW_BHnHQ/viewform?usp=sf_link)
-  - [Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdIaxG0d6wI7NZZ4SN_ZuS4tErOi0xgnqzTrnkASkm73zyZcw/viewform?usp=sf_link)
-  - [Peer evaluation](https://docs.google.com/forms/d/e/1FAIpQLScxJ5xgpFGJWJxoQRuN4lU2yHNy5aYD9dnZO0ON_9y0EUbVZg/viewform?usp=sf_link)
-  - [Group Project Topic](https://docs.google.com/forms/d/e/1FAIpQLSe7RtdrAd8TG4Ajqo0U9iYbvj5BWch9RmQMrH7IjM6y1wCRGg/viewform?usp=sf_link)
+The new paradigm of LLM Based AI agents, have demonstrated effectiveness in variety of Software Engineering (SE) tasks, such as program generation, software testing and debugging and program improvement as well as end-to-end software engineering. These agents can extend the capabilities of the backbone LLMs by utilizing external resources and tools and soliciting human interactions. From SE perspective, there is a need to analyze how LLM-based agents can tackle different software development and maintenance tasks. Whereas, from the agent perspective, there is a need to throw some light on the basic agentic design components, including planning, memory, perception, action and their roles and collaboration mechanisms, in multi-agent settings.
 
-## Course Outline (*Tentative, may be updated based on students' feedback and guest instructors' availability*)
+The proposed workshop aims to provide a collaborative platform for researchers and practitioners to delve into the convergence of traditional MDE, KE, and RE methodologies together with Generative AI technologies. By synergizing the strengths of Gen AI, LLM Agentic Frameworks, modeling, and knowledge representation for SDLC, our goal is to define a trajectory toward enhanced software engineering practices. We seek discussion on the following pivotal questions:
 
-Please check the complete outline in the syllabus. The table below progressively provides a summary of the topics that are planned to be covered recently.
+Architecting, designing, developing and maintaining industry-strength software is a multi-skill, long-drawn activity that cannot be effectively addressed by LLMs alone. What kinds of augmentation make it effective?
+LLM is a vast storehouse of general information, but the typical need during SDLC is rather sharply focused. How best to bear local knowledge at scale to get the required focus?
+How can Generative AI be effectively utilized for mining and constructing purpose-driven knowledge from software artifacts? Can Generative AI catalyze existing legacy modernization techniques to reduce cost, time and improve correctness?
+How can Generative AI enhance the synthesis of tests and test data during SDLC?
+Can bug fixes and change requests be analyzed and implemented expeditiously using Generative AI?
+What are the best practices for maintaining the accuracy, relevance and reliability of Generative AI generated software artifacts?
+What are the state-of-the-art techniques, experimental models, methodologies, benchmark datasets and evaluation metrics employed for the usage of LLMs and LLM-based agents in SE applications? What are the key differences in task performance between LLMs and LLM-based agents?
+## Call For Abstract And Call For Paper
+Software Engineering (SE) in the large is an effort-intensive and time-consuming activity whereas IT systems today need to make changes in the shortest possible duration. Software development is thus a complex combination of transformation, reverse and forward engineering, involving code, data, and specifications. While Model-Driven Engineering (MDE), Knowledge Engineering (KE), and Reverse Engineering (RE) have mitigated some of the challenges, the emergence of Generative AI techniques holds the potential for a substantial breakthrough and is an important area of study and exploration. The absence of high-quality datasets that encompass a wide range of programming tasks, styles, and languages add to the challenges. Further, as the technology and business landscapes change, LLMs constantly need to match the pace.
 
+The new paradigm of LLM Based AI agents have demonstrated effectiveness in variety of Software Engineering (SE) tasks, such as program generation, software testing and debugging and program improvement as well as end-to-end software engineering. These agents can extend the capabilities of the backbone LLMs by utilizing external resources and tools and soliciting human interactions.   From SE perspective, there is a need to analyze how LLM-based agents can tackle tasks across Software Development Lifecycle (SDLC) and how to design the basic agentic components, including planning, memory, perception, action and their roles and collaboration mechanisms, in multi-agent settings.
 
-| Class | Date         | Topic                               | Content | Notes (if any) | Recommended Reading |
-| ----- | ------------ | ----------------------------------- | ----- | -------------------------- | -------------------------- | 
-| 0     | 19 August, Mon |   Course Intro                                    | [PDF](https://docs.google.com/presentation/d/1x3UqajDWgfBuHmnxdY7Azw9WuZowuGYXvD7nreoZpMw/edit?usp=sharing)    |                            |                           |
-| 1     | 21 August, Wed |     Basics of AI4SE                                  | [PDF](https://docs.google.com/presentation/d/1qpicT_uBC3_cwlT69oEELaK49JnXzf0HwPAJvhkdXVc/edit?usp=sharing)    |                            |                           |
-| 2     | 26 August, Mon |   *"GAI4SE, what's going on in industry?" #1*  (Pankaj, Firasat, Prabhanjan and Ejaz)                                    |    |                            |                           |
-| 3     | 28 August, Wed |    Take-home Assignment #1  (No class)                                  | [Link](https://docs.google.com/document/d/1IsNxR0_ixMStkfJDI2cmhBaNtEfiP2BlYVFOB3h7PCU/edit?usp=sharing)    |                            |                           |
-| **Deadline**     | 30 August, Fri |    [Team Formation](https://docs.google.com/forms/d/e/1FAIpQLSfmnjiks_q-yI4lb_kxWo43x3mAmoa7U_3a6D_1n3W-p9RBew/viewform?usp=sf_link)                                    |     |                            |                           |
-| 4     | 2 September, Mon |       Labor Day (University closed; No classes)                             |    |                            |                           |
-| 5     | 4 September, Wed |      Take-home Assignment #2  (No class)                            | [Link](https://docs.google.com/document/d/15juCvJs0mOXCDW4QXmrwDxdweq_ehLZMVfyl15KuxGE/edit?usp=sharing)    |                            |                           |
-| **Deadline**     | 8 September, Sun |    **AI Concept Video Submission (Flipped Class) via Email**                                    |     |                            |                           |
-| 6     | 9 September, Mon |     Basics of Generative AI                            | [PDF](https://docs.google.com/presentation/d/1VZdSnS9KMS-5bj67dUH3UN4uGhlHBi0rvtRNLDVYblk/edit?usp=sharing)    |                            |                           |
-| **Deadline**     | 10 September, Tue |    **Take-home Assignment #1 Submission via Email**                                    |     |                            |                           |
-| 7     | 11 September, Wed |     Code Embedding                             | [PDF](https://docs.google.com/presentation/d/1FyLy-uBMxSXilfrqIke_1VKif2y4K-qNwWHC9bwdR8s/edit?usp=sharing)    |                            |                           |
-| 8     | 16 September, Mon |    Basics of GAI - 1 (Flipped classroom)                               |  [Adversarial Example](https://drive.google.com/file/d/113XzJKz9Flk-KW8FrJoaZ2VGQV457Amf/view?usp=sharing); [Tokenization](https://drive.google.com/file/d/10liThCKUFDXebRj6aXX09eBva8e2DcZK/view?usp=sharing); [Non-Determinism in LLMs: How to Control Randomness](https://drive.google.com/file/d/10ZUMwM0qw8JpV_cjf69M7LESvibOesv5/view?usp=sharing);  [RAG](https://drive.google.com/file/d/10y5VT8QvNL7qIymKB3QwsnMt4gRwtjQn/view?usp=sharing); [AI Agents](https://drive.google.com/file/d/104BpJ8BvMbmS8CFeHl15xdyplN5mh8Pf/view?usp=drive_link)  |                            |                           |
-| 9     | 18 September, Wed |     Improving analytical capabilities and storage efficiencies of modern log management solutions (Kundi Yao, University of Waterloo)                         | [PDF](https://drive.google.com/file/d/1DS-v1CW98_Z5J5KVcGsyYuUk2h7rYqBZ/view?usp=sharing)    |                            |                           |
-| **Deadline**     | 20 September, Fri |    [**Finalize Group Project Topic**](https://docs.google.com/forms/d/e/1FAIpQLSe7RtdrAd8TG4Ajqo0U9iYbvj5BWch9RmQMrH7IjM6y1wCRGg/viewform?usp=sf_link)                                    |     |                            |                           |
-| 10    | 23 September, Mon |    Basics of GAI - 2 (Flipped classroom)                               | [Lora](https://drive.google.com/file/d/10tqy-3dJnX15A0wVvF7tJCmO9hMXXd__/view?usp=sharing); [AI Ethics and Bias](https://drive.google.com/file/d/10WH-np1w_NVzNwGoEMWhD3gNzTDWpkub/view?usp=sharing); [Deepfake in Synthetic Media](https://drive.google.com/file/d/10xwamMUMp81XVZbedXG2eyz9-ed35n1E/view?usp=sharing);     |                            |                           |
-| 11    | 25 September, Wed |   Code Generation with LLMs: How Reliable Are They? (Thanh Le-Cong, University of Melbourne)                                | [PDF](https://drive.google.com/file/d/149VtIdokJjReYL7_tr0llGFj7TJWvMMu/view?usp=sharing)    |                            |   [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)                        |
-| **Deadline**     | 27 September, Fri |    **Take-home Assignment #2 Submission via Email**                                    |     |                            |                           |
-| 12    | 30 September, Mon |   Recent Trends + Group Project Proposal Presentation - 1                                |     |                            |                           |
-| 13    | 2 October, Wed  |   Recent Trends + Group Project Proposal Presentation - 2                                  |     |                            |                           |
-| 14    | 7 October, Mon  |   *Semantic-aware Source Code Modeling* (Yangruibo (Robin) Ding, Columbia University)                                  | [PDF](https://drive.google.com/file/d/1y-1AUcTLlrEIBvQjsUyfhtbMH0pyAjUJ/view?usp=sharing)    |                            |                           |
-| 15    | 9 October, Wed  |     *"GAI4SE, what's going on in industry?" #2*  (Deep Mehta from Microsoft and Nitesh Murli Mishra from Barclays)                                | [PDF]()    |                            |                           |
-| 16    | 14 October, Mon |       Fall Break (No class)                              |     |                            |                           |
-| 17    | 16 October, Wed |    **Mid-term Exam (NO ONE SHOULD MISS IT!!!)**                                 |     |                            |                           |
-| 18    | 21 October, Mon |   Basics of GAI - 3 (Flipped classroom)                                  |     |                            |                           |
-| 19    | 23 October, Wed |    Take-home Assignment #3  (No class)                                 |     |                            |                           |
-| 20    | 28 October, Mon |    Project Workday + Consultation 1                               |    |                            |                           |
-| 21    | 30 October, Wed |     Project Workday + Consultation 2                                |     |                            |                           |
-| 22    | 4 November, Mon |     Testing, Testing, 1-2-3: Test generation with LLMs   (Nikitha Rao, Carnegie Mellon University)                             |  [PDF](https://drive.google.com/file/d/16ltwQhvjvKwzxmn_fvJuR5hRuynz4eG7/view?usp=sharing)   |                            |                           |
-| 23    | 6 November, Wed |       In-class Activity and Discussion                       |    |                            |                           |
-| **Deadline**     | 6 November, Wed |    **Take-home Assignment #3 Submission via Email**                                    |     |                            |                           |
-| 24    | 11 November, Mon | Software Maintenance and Evolution in the Era of Large Pre-trained Models (Yanfu Yan, William & Mary)                                  |    |                            |                           |
-| 25    | 13 November, Wed |    LLMs in Research and Practice (Michael Schader)                                 |     |                            |                           |
-| 26    | 18 November, Mon |   Large Sequence Models of Software Development Activities (Dan Zheng, Google DeepMind)                                 | [Note](https://docs.google.com/document/d/1ZcSADiXMvITdD4MY8WUqX3ibSNdwVfaykEVX_1iXW0I/edit?usp=sharing)   |                            |                           |
-| 27    | 20 November, Wed |   Project Solution Presentation - 1                                 |     |                            |                           |
-| 28    | 25 November, Mon |   Project Solution Presentation - 2                                 |     |                            |                           |
-| 29    | 27 November, Wed |  Thanksgiving Holiday (No classes; University closed Thursday & Friday)                                  |     |                            |                           |
-| 30    | 2 December, Mon |     Project Solution Presentation - 3                               |    |                            |                           |
-| **Deadline**     | 4 December, Wed |    **Group Project Artifacts Submission + Peer Review**                                    |  [Peer evaluation form](https://docs.google.com/forms/d/e/1FAIpQLScxJ5xgpFGJWJxoQRuN4lU2yHNy5aYD9dnZO0ON_9y0EUbVZg/viewform?usp=sf_link)   |                            |                           |
+The Workshop on GenAI Based Software Engineering aims to provide a collaborative platform for researchers from academia industry, and practitioners to delve into the convergence of traditional MDE, KE, and RE methodologies and software engineering approaches together with Generative AI technologies. We solicit submissions in the form of one-page abstract (max 500 words) OR papers of maximum 5-pages + 1-page references in the standard ACM format describing case studies, interesting experiments, techniques and best practices, and lessons learned while applying Generative AI and LLM agent frameworks to various SE areas, but not limited to the following topics:
 
+Agentic frameworks for SE
+Intelligent Code Assistants
+Neuro-Symbolic Approaches for SE
+GenAI Frameworks for SE with Human in the Loop
+Advanced Retrieval Augmentation for SE
+Datasets for SE
+LLMs for Knowledge Engineering
+Tuning of SLMs (Small Language Models) for SE
+Technical Risks associated in AI/ML implementations
+Negative Results demonstrating failed application of GenAI for SE
+Low-cost GenAI solutions for SE
+Reliability of GenAI generated software artifacts
+LLMs as a judge for evaluation of SE tasks
 
-## Group Project
+The areas of interest across SE include but are not restricted to Requirements Engineering, Software Architecture and Design, Software Development and Maintenance, Software Verification, Testing and Debugging, Legacy Modernization, Reverse Engineering from code, documents, Software Analysis, Repository level coding tasks including code development , code completion, test case generation, debugging and issue fixing tasks.
 
-- [Slide Template for Discussion and Proposal Presentation](https://docs.google.com/presentation/d/1sT_tjErpoc7Hx1mPJL90LJhx-Wz5jBi1UirqS7nGxFw/edit?usp=sharing)
-- [Slide Template for Final Presentation](https://docs.google.com/presentation/d/1AFZkhAFWSdxwtAPenD-ncQUlDdNJUaJVvISU7vnjBfg/edit?usp=sharing)
+## Submission Information
+Abstract (maximum 500 words) OR papers (maximum 5 pages + 1 page references). Abstracts can be from already published work at other conference venues and should include the details of when and where the original work is published. Papers should be original work, not being considered for publishing elsewhere, written in text format, in English. Accepted papers may be considered for publication at an appropriate forum (either in ACM DL, or SE Notes or CEUR publication). Abstracts should be submitted via the Google Form Link: Click Here!. Papers should be submitted via Easychair link: Submit Here. 
 
-### What is a good presentation? 
+### Acceptance criteria : 
+Abstracts and papers will be selected for presentation based on reviews by members of the workshop organizing committee. The tentative criteria will be the clarity of articulation of the problem being solved, motivating the need of Generative AI to solve the problem and the novelty of the approach. Authors of accepted papers will receive further instructions for submitting camera-ready versions.
 
-[Partial source](https://www.cs.princeton.edu/courses/archive/fall22/cos597G/)
-
-  - The oldest paper we are going to read is 4 years old. Most papers were published in the past 1-2 years (if not a few months).
-  - They represent the state-of-the-art of the field and our _current understanding_ of LLMs
-  - All research builds on previous research: putting things in context when you read and present a paper!! You are expected to read more if you want to fully understand papers
-  - When you present a paper:
-    - Highlight the biggest take-aways
-    - Think about why this paper is important
-    - Explain the characteristics of the used data
-    - Pay attention to technical details too
-    - Choose and present experimental results properly
-    - (Bonus) What can be done in the future?
-
-## Extra Resources
-
-- [Explain Transformer Structure with Code](http://nlp.seas.harvard.edu/annotated-transformer)
-- [Finetuning Large Language Models (1hr)](https://www.deeplearning.ai/short-courses/finetuning-large-language-models/)
-- [How to Read an Engineering Research Paper](https://cseweb.ucsd.edu//~wgg/CSE210/howtoread.html)
+## Program Details
+Not Available
 
 ## Contact Information
-
-Office Hours (**Appointment Required (at least 2 days in advance)**): Every Tuesday 2-4pm.
-
-In case you need to communicate or ask any questions about the course, please send a direct message via Discord.
+In case of any questions, you can write an email to genai4se@googlegroups.com
