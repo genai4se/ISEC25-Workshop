@@ -160,67 +160,61 @@
             <h2 style="color: #5f5f5f;"> Speakers</h2>
             <hr><br>
         </div>
-    <!--  
+     
     <div class="row row-cols-1 row-cols-md-2 g-4">
     
       <div class="col">
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Aditya Kanade </h4>
-            <p><i>Microsoft Research, India</i></p>
-            <p><b>Title: Making LLMs Usable in Large-scale Software Engineering <p></b>
-            <p><b>Abstract</b> The rise of LLMs has resulted in a flurry of activities to build innovative applications. The LLMs have proven to be valuable in building helpful Copilots for IDE-based code completion. 
-                Can we replicate this success in large-scale software engineering that goes beyond completing code within a local context? In this talk, I will discuss some of the challenges in making this happen and our recent work that attempts to address them. 
-                In particular, I will discuss how to get LLMs to automate coding at the level of repositories, prevent hallucinations and evaluate the ability of LLMs to meet non-functional requirements of software. </p>
+            <h4>Karthik Vaidhyanathan</h4>
+            <p><i>IIIT-Hyderabad, India</i></p>
+            <p><b>Title: Playing with Abstractions: At the crossroads of Software Architecture and Generative AI<p></b>
+            <p><b>Abstract</b> Text is a powerful abstraction of reality, like architecture abstracts complex software systems. 
+	  The advent of Generative AI specifically Large Language Models (LLMs) has set new benchmarks in understanding and generating human-like text, revolutionizing multiple sectors. 
+	  In this talk, we explore some of these capabilities of LLMs to understand whether LLMs can be architect's new best friend. We begin with an overview of Large Language Models (LLMs) and exploring their role in generating design decisions through our research on leveraging GenAI for architecture knowledge management. 
+	  We then explore their impact on automating component generation based on our ongoing research in the serverless context. Further, we provide insights on LLMs’ capabilities for supporting runtime architectural adaptation, highlighting our efforts on building Generative AI-powered autonomous CloudOps Copilot in collaboration with our industrial partner.  
+	  The talk concludes by listing different opportunities and challenges drawing insights from our ongoing efforts involving Small Language Models as well as in architecting multi-agent framework for cloudOps domain. </p>
+	<p><b>Bio: </b>Karthik Vaidhyanathan is an Assistant Professor at the Software Engineering Research Center, IIIT-Hyderabad, India, and a member of the leadership team at the Smart City Living Lab. He earned his Ph.D. from the Gran Sasso Science Institute, Italy, and completed a postdoctoral fellowship at the University of L’Aquila, Italy. 
+		His research lies at the intersection of Software architecture and AI with a specific focus on building sustainable software systems.  His research focuses on how AI can be leveraged to better engineer sustainable and self-adaptive software systems and further how to better define software engineering practices for developing AI-enabled software systems. 
+		As a part of his research activities, he serves as a reviewer/organizing committee member in various international workshops, conferences, and journals. An editorial board member of IEEE Software, he also brings over five years of industry experience in designing and deploying AI solutions. 
+		More information can be found at: <a href="https://karthikvaidhyanathan.com">https://karthikvaidhyanathan.com</a></p>	
         </div>
       </div>
       <div class="col">
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Disha Shrivastava (Virtual talk)</h4>
-            <p><i>Google DeepMind, UK </i></p>
-            <p><b>Title: Effectively Utilizing Contextual Cues for LLMs of Code <p></b>
-            <p id="Dinesh"><b id="Hridesh">Abstract</b> Source code provides an exciting application area of deep learning methods, encompassing tasks like program synthesis, repair, and analysis, as well as tasks at the intersection of code and natural language. Although LLMs of code have recently seen significant success, they can face challenges in generalizing to unseen code. 
-                This can lead to inaccuracies especially when working with repositories that contain proprietary software or work-in-progress code. 
-                In this talk, I will discuss some ways of effectively harnessing useful signals from the available context such that it can improve the performance of the LLMs at the given task. </p>
+            <h4>Dr. Diptikalyan Saha</h4>
+            <p><i>IBM Research, India</i></p>
+            <p><b>Title: Navigating the Landscape of AI Agents: Characteristics, Innovations, and Future Directions<p></b>
+            <p id="Dinesh"><b id="Hridesh">Abstract</b> The field of AI agents has gained substantial attention in recent years due to the surge in AI capabilities and the demand for automation in complex tasks. 
+		    AI agents, with their ability to reason, plan, act, and interact, represent a significant advancement over traditional automation techniques. In this talk, we will explore the evolving trends and defining features of AI agents, providing a foundation for understanding their transformative potential. We will delve into cutting-edge paradigms such as ReACt, Reflection, and Reflexion agents, showcasing their unique approaches to problem-solving. Building on this, we will highlight recent advances in agentic software engineering research with demonstrations of our work on agentic NL2SQL and automated testing agents. 
+		    Finally, we will discuss critical challenges regarding the reliability and robustness of AI agents, laying the groundwork for future research in this exciting field. </p>
+		<p><b>Bio: </b>Dr. Diptikalyan Saha is a Senior Technical Staff Member and Master Inventor at IBM Research, India, where he leads research at the intersection of Artificial Intelligence and Software Engineering, contributing significantly to IBM products in these areas. 
+			His current focus is on integrating Generative AI into the DevOps lifecycle, with a particular emphasis on AI Agents and IBM's Z Platform. In his earlier work, Dipti made notable contributions to the fields of Trustworthy AI and Reliable Software Engineering. 
+			Dipti earned his Ph.D. in Computer Science from the State University of New York at Stony Brook in 2006. In the past, he served as Program Co-Chair for major conferences such as FSE and ISEC. 
+			Additionally, Dipti chaired the committee responsible for developing India's AI Fairness Standard.</p>
      </div>
       </div >
       
       <div class="col">
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Dinesh Garg  </h4>
-            <p><i>IBM Research, India </i></p>
-            
-            <p><b>Title: Generative AI for Cobol-to-Java Translation  <p></b>
-            <p><b>Abstract</b> A large number of mission-critical business applications were written decades ago using the relevant technology of that time, for instance in COBOL, and are in use in large companies across the world and across industry sectors. It is estimated that there are over 200 Billion lines of COBOL code in the world today. 
-                There is significant interest in these companies to translate such code into modern language such as Java to leverage the more widely available Java skills in the market.  Developing tools and techniques for automatic translation of COBOL applications into Java is a challenging problem due to factors such as COBOL being a procedural language, whereas Java being object-oriented. To further complicate the matter, both these languages have their own packages/libraries.
-                In this talk, I will share my experiences in building a generative AI-based solution called Watsonx Code Assistant for Z (WCA4Z) developed at IBM Labs. The input to WCA4Z is an enterprise-level COBOL application whereas, the output is an equivalent Java application.  The hallmark of our end-to-end WCA4Z solution is that it generates a Java code that is human-readable and maintainable which is not the case with several alternative solutions. Thus, WCA4Z has a potential to save significant developer effort and reduce cost of application modernization. 
-                The novelty of the solution lies in a fine blend of program analysis techniques with Large Language Model (LLM) ideas. I hope this talk will convince you that a clever use of Generative AI can catalyze the task of legacy code modernization in an extremely cost-effective manner.  </p>
-        </div>
+            <p>confirmations awaited</p>
+	</div>
       </div >
       
       
       
       <div class="col" >
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Hridesh Rajan </h4>
-            <p><i>IOWA State University, USA </i></p>       
-         <p ><b >Talk cancelled due to unavoidable reasons..</b></br></br><p></p><p></p></br></br></br></br></br></br></br></br></br></br></br></br></br></br></p><br id="Vikrant">
-  
-	      </div>
+            <p>confirmations awaited</p>
+	</div>
       </div>
 	<div class="col" id="Jyothi">
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Jyothi Vedurada  </h4>
-            <p><i>IIT Hyderabad, India </i></p>
-            <p><b>Title: Leveraging Large Language Models for Effective Software Development Practices.<p></b>
-            <p><b>Abstract</b> In this talk, we will explore three effective techniques aimed at enhancing software security, bug detection, and documentation practices by leveraging the capabilities of large language models and graph neural networks. The first technique focuses on bug detection, specifically addressing buffer-overflow bugs in C/C++ code snippets using large language models. By incorporating bug patterns during fine-tuning, the models achieve improved bug detection performance. The second technique introduces Cell2Doc, a machine-learning pipeline designed to streamline manual documentation efforts within notebook code cells. Cell2Doc takes advantage of existing pre-trained language models and identifies logical contexts within a code cell to significantly improve documentation efficiency. Lastly, the third technique involves a Graph Neural Network (GNN)-based model to mitigate API misuse during software development, a prevalent issue that often leads to security vulnerabilities and system failures. </p>
-        </div>
+            <p>confirmations awaited</p>
+	</div>
       </div>
 	<div class="col" >
         <div class="speaker-card" data-aos="fade-up">
-            <h4>Vikrant Kaulgud  </h4>
-            <p><i>Accenture Labs, India </i></p>
-            <p><b>Title: Gen AI assisted SLDC – A peek into the past, present and future  <p></b>
-            <p><b>Talk cancelled due to unavoidable reasons.</b></br></br></br></br></br></br></br></br></br></br>  </p>
+            <p>confirmations awaited</p>
            </div>
       </div>
       
@@ -241,7 +235,7 @@
       </div>
     
 </footer>
- -->
+ 
 
 
 <script src="script.js"></script>
